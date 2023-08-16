@@ -2,7 +2,7 @@
 
 ### Command I Used: `ubuntu@ubuntu:/$ sudo apt install python3-pip`
 ### Error
-`
+```
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -11,7 +11,7 @@ This may mean that the package is missing, has been obsoleted, or
 is only available from another source
 
 E: Package 'python3-pip' has no installation candidate
-`
+```
 
 ### Solution
 It looks like the 'python3-pip' package is not available in our current package repositories. This could be due to a misconfiguration or an issue with the package sources.
